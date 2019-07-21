@@ -1,0 +1,9 @@
+.sitecontent{
+  margin-top: 2rem;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
