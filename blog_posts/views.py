@@ -1,13 +1,13 @@
 from flask import render_template,url_for,flash, redirect,request,Blueprint
 from flask_login import current_user,login_required
-from studywithroy import db
-from studywithroy.models import BlogPost
-from studywithroy.blog_posts.forms import BlogPostForm
+from royblog import db
+from royblog.models import BlogPost
+from royblog.blog_posts.forms import BlogPostForm
 
 blog_posts = Blueprint('blog_posts',__name__)
 
 @blog_posts.route('/create',methods=['GET','POST'])
-@login_required
+# @login_required
 def create_post():
     form = BlogPostForm()
 
