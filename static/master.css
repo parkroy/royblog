@@ -1,9 +1,11 @@
-.sitecontent{
-  margin-top: 2rem;
+#royface{
+float: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+body {
+    font-family: 'NanumSquare'
+     }

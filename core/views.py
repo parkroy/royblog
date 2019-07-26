@@ -10,6 +10,6 @@ def index():
 def info():
     return render_template('info.html')
 
-@core.route('/semantic')
-def semantic():
-    return render_template('semanhome.html')
+@core.route('/contact')
+def contact():
+    return render_template('contact.html')
